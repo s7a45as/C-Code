@@ -23,8 +23,6 @@ const int MOD = 1e9 + 7;
 const int INF = 0x3f3f3f3f3f3f3f3f;
 const int N = 1e6 + 13;
 
-
-
 void solve() {{
 
     
