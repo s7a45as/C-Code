@@ -1,2 +1,0 @@
-# C-Code
-Training code
