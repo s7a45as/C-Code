@@ -4,15 +4,12 @@ using namespace std;
 #define pii pair<int, int>
 #define pb push_back
 #define endl '\n'
-
+void markAsSolved();
 const int MOD = 1e9 + 7;
 const int INF = 0x3f3f3f3f3f3f3f3f;
 const int N = 1e6 + 13;
 
-
-
 void solve() {
-
     
 }
 
@@ -21,7 +18,7 @@ signed main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
     int t = 1;
-    // cin >> t; 
+    // cin >> t;
     while (t--) {
         solve();
     }
@@ -31,19 +28,14 @@ signed main() {
     return 0;
 }
 
-
-
-
-
-
-
 // 标记完成函数
 void markAsSolved() {
     string current_file = __FILE__;
     string new_file = current_file.substr(0, current_file.length() - 4) + "_ok.cpp";
+    string filename = new_file.substr(new_file.find_last_of("/\"") + 1);
     
     #ifdef _WIN32
-        string command = "rename \"" + current_file + "\" \"" + new_file.substr(new_file.find_last_of("/\\") + 1) + "\"";
+        string command = "rename \"" + current_file + "\" \"" + filename + "\"";
     #else
         string command = "mv \"" + current_file + "\" \"" + new_file + "\"";
     #endif

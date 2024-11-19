@@ -1,1 +1,0 @@
-{"name":"Local: B","url":"c:\\Users\\45732\\Code\\C++\\C-Code\\B.zuixiaopingjunshu.cpp","tests":[{"id":1731668756188,"input":"5\n1 2 3 4 5","output":"1"},{"id":1731668791299,"input":"5\n2 2 3 4 5 ","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\45732\\Code\\C++\\C-Code\\B.zuixiaopingjunshu.cpp","group":"local","local":true}
